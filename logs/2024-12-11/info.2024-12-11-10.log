@@ -1,0 +1,100 @@
+2024-12-11 11:00:02,006 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - GET "/content/course-category/tree-nodes", parameters={}
+2024-12-11 11:00:02,006 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - GET "/content/course/126", parameters={}
+2024-12-11 11:00:02,006 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - GET "/content/course/126", parameters={}
+2024-12-11 11:00:02,006 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - GET "/content/course-category/tree-nodes", parameters={}
+2024-12-11 11:00:02,105 DEBUG [http-nio-63040-exec-3][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#selectById(Long)
+2024-12-11 11:00:02,105 DEBUG [http-nio-63040-exec-3][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseBaseInfoController#selectById(Long)
+2024-12-11 11:00:02,105 DEBUG [http-nio-63040-exec-10][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseCategoryController#queryTreeNodes()
+2024-12-11 11:00:02,105 DEBUG [http-nio-63040-exec-10][AbstractHandlerMapping.java:415] - Mapped to com.xuecheng.content.api.CourseCategoryController#queryTreeNodes()
+2024-12-11 11:00:02,106 DEBUG [http-nio-63040-exec-10][Logger.java:49] - Creating a new SqlSession
+2024-12-11 11:00:02,106 DEBUG [http-nio-63040-exec-10][Logger.java:49] - Creating a new SqlSession
+2024-12-11 11:00:02,106 DEBUG [http-nio-63040-exec-10][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b293d83] was not registered for synchronization because synchronization is not active
+2024-12-11 11:00:02,106 DEBUG [http-nio-63040-exec-10][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b293d83] was not registered for synchronization because synchronization is not active
+2024-12-11 11:00:02,106 DEBUG [http-nio-63040-exec-10][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-11 11:00:02,106 DEBUG [http-nio-63040-exec-10][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-11 11:00:02,115 DEBUG [http-nio-63040-exec-10][Logger.java:49] - JDBC Connection [HikariProxyConnection@636405398 wrapping com.mysql.cj.jdbc.ConnectionImpl@36c0be36] will not be managed by Spring
+2024-12-11 11:00:02,115 DEBUG [http-nio-63040-exec-10][Logger.java:49] - JDBC Connection [HikariProxyConnection@636405398 wrapping com.mysql.cj.jdbc.ConnectionImpl@36c0be36] will not be managed by Spring
+2024-12-11 11:00:02,115 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: with recursive t1 as ( select * from course_category where id = ? union all select t.* from course_category t, t1 where t.parentid = t1.id ) select * from t1 order by id;
+2024-12-11 11:00:02,115 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==>  Preparing: with recursive t1 as ( select * from course_category where id = ? union all select t.* from course_category t, t1 where t.parentid = t1.id ) select * from t1 order by id;
+2024-12-11 11:00:02,115 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2024-12-11 11:00:02,115 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - ==> Parameters: 1(String)
+2024-12-11 11:00:02,153 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Creating a new SqlSession
+2024-12-11 11:00:02,153 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Creating a new SqlSession
+2024-12-11 11:00:02,153 DEBUG [http-nio-63040-exec-3][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48d9c31b] was not registered for synchronization because synchronization is not active
+2024-12-11 11:00:02,153 DEBUG [http-nio-63040-exec-3][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48d9c31b] was not registered for synchronization because synchronization is not active
+2024-12-11 11:00:02,153 DEBUG [http-nio-63040-exec-3][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-11 11:00:02,153 DEBUG [http-nio-63040-exec-3][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-11 11:00:02,167 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@16356534 wrapping com.mysql.cj.jdbc.ConnectionImpl@78cc29d0] will not be managed by Spring
+2024-12-11 11:00:02,167 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@16356534 wrapping com.mysql.cj.jdbc.ConnectionImpl@78cc29d0] will not be managed by Spring
+2024-12-11 11:00:02,167 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2024-12-11 11:00:02,167 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base WHERE id=?
+2024-12-11 11:00:02,167 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 126(Long)
+2024-12-11 11:00:02,167 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 126(Long)
+2024-12-11 11:00:02,178 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 144
+2024-12-11 11:00:02,178 DEBUG [http-nio-63040-exec-10][BaseJdbcLogger.java:137] - <==      Total: 144
+2024-12-11 11:00:02,179 DEBUG [http-nio-63040-exec-10][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b293d83]
+2024-12-11 11:00:02,179 DEBUG [http-nio-63040-exec-10][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2b293d83]
+2024-12-11 11:00:02,179 DEBUG [http-nio-63040-exec-10][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-12-11 11:00:02,179 DEBUG [http-nio-63040-exec-10][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-12-11 11:00:02,180 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [[CourseCategoryTreeDto(childrenTreeNodes=[CourseCategoryTreeDto(childrenTreeNodes=null), CourseCateg (truncated)...]
+2024-12-11 11:00:02,180 DEBUG [http-nio-63040-exec-10][LogFormatUtils.java:91] - Writing [[CourseCategoryTreeDto(childrenTreeNodes=[CourseCategoryTreeDto(childrenTreeNodes=null), CourseCateg (truncated)...]
+2024-12-11 11:00:02,180 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
+2024-12-11 11:00:02,180 DEBUG [http-nio-63040-exec-10][FrameworkServlet.java:1131] - Completed 200 OK
+2024-12-11 11:00:02,185 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-12-11 11:00:02,185 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-12-11 11:00:02,185 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48d9c31b]
+2024-12-11 11:00:02,185 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@48d9c31b]
+2024-12-11 11:00:02,190 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Creating a new SqlSession
+2024-12-11 11:00:02,190 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Creating a new SqlSession
+2024-12-11 11:00:02,191 DEBUG [http-nio-63040-exec-3][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad02c29] was not registered for synchronization because synchronization is not active
+2024-12-11 11:00:02,191 DEBUG [http-nio-63040-exec-3][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad02c29] was not registered for synchronization because synchronization is not active
+2024-12-11 11:00:02,191 DEBUG [http-nio-63040-exec-3][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-11 11:00:02,191 DEBUG [http-nio-63040-exec-3][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-11 11:00:02,191 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@1285029747 wrapping com.mysql.cj.jdbc.ConnectionImpl@78cc29d0] will not be managed by Spring
+2024-12-11 11:00:02,191 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@1285029747 wrapping com.mysql.cj.jdbc.ConnectionImpl@78cc29d0] will not be managed by Spring
+2024-12-11 11:00:02,191 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2024-12-11 11:00:02,191 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,charge,price,original_price,qq,wechat,phone,valid_days FROM course_market WHERE id=?
+2024-12-11 11:00:02,191 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 126(Long)
+2024-12-11 11:00:02,191 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 126(Long)
+2024-12-11 11:00:02,194 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-12-11 11:00:02,194 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-12-11 11:00:02,194 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad02c29]
+2024-12-11 11:00:02,194 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4ad02c29]
+2024-12-11 11:00:02,197 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Creating a new SqlSession
+2024-12-11 11:00:02,197 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Creating a new SqlSession
+2024-12-11 11:00:02,197 DEBUG [http-nio-63040-exec-3][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35b4aa48] was not registered for synchronization because synchronization is not active
+2024-12-11 11:00:02,197 DEBUG [http-nio-63040-exec-3][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35b4aa48] was not registered for synchronization because synchronization is not active
+2024-12-11 11:00:02,197 DEBUG [http-nio-63040-exec-3][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-11 11:00:02,197 DEBUG [http-nio-63040-exec-3][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-11 11:00:02,197 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@1185658858 wrapping com.mysql.cj.jdbc.ConnectionImpl@78cc29d0] will not be managed by Spring
+2024-12-11 11:00:02,197 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@1185658858 wrapping com.mysql.cj.jdbc.ConnectionImpl@78cc29d0] will not be managed by Spring
+2024-12-11 11:00:02,197 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2024-12-11 11:00:02,197 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2024-12-11 11:00:02,198 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1-10(String)
+2024-12-11 11:00:02,198 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1-10(String)
+2024-12-11 11:00:02,204 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-12-11 11:00:02,204 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-12-11 11:00:02,204 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35b4aa48]
+2024-12-11 11:00:02,204 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@35b4aa48]
+2024-12-11 11:00:02,204 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Creating a new SqlSession
+2024-12-11 11:00:02,204 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Creating a new SqlSession
+2024-12-11 11:00:02,204 DEBUG [http-nio-63040-exec-3][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@77269a4a] was not registered for synchronization because synchronization is not active
+2024-12-11 11:00:02,204 DEBUG [http-nio-63040-exec-3][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@77269a4a] was not registered for synchronization because synchronization is not active
+2024-12-11 11:00:02,205 DEBUG [http-nio-63040-exec-3][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-11 11:00:02,205 DEBUG [http-nio-63040-exec-3][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-11 11:00:02,205 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@1741719564 wrapping com.mysql.cj.jdbc.ConnectionImpl@78cc29d0] will not be managed by Spring
+2024-12-11 11:00:02,205 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@1741719564 wrapping com.mysql.cj.jdbc.ConnectionImpl@78cc29d0] will not be managed by Spring
+2024-12-11 11:00:02,205 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2024-12-11 11:00:02,205 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,label,parentid,is_show,orderby,is_leaf FROM course_category WHERE id=?
+2024-12-11 11:00:02,205 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1-10-2(String)
+2024-12-11 11:00:02,205 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 1-10-2(String)
+2024-12-11 11:00:02,208 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-12-11 11:00:02,208 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-12-11 11:00:02,208 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@77269a4a]
+2024-12-11 11:00:02,208 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@77269a4a]
+2024-12-11 11:00:02,238 DEBUG [http-nio-63040-exec-3][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-12-11 11:00:02,238 DEBUG [http-nio-63040-exec-3][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-12-11 11:00:02,238 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [CourseBaseInfoDto(charge=201001, price=1.0, originalPrice=123.0, qq=231, wechat=123, phone=123, vali (truncated)...]
+2024-12-11 11:00:02,238 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [CourseBaseInfoDto(charge=201001, price=1.0, originalPrice=123.0, qq=231, wechat=123, phone=123, vali (truncated)...]
+2024-12-11 11:00:02,239 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
+2024-12-11 11:00:02,239 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK

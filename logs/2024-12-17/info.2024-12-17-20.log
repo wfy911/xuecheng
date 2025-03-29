@@ -1,0 +1,172 @@
+2024-12-17 20:58:29,356 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-12-17 20:58:29,356 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-12-17 20:58:30,376 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-12-17 20:58:30,376 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-12-17 20:58:30,468 INFO [main][GenericScope.java:295] - BeanFactory id=6289c406-5227-303d-b7dd-62102dc0718c
+2024-12-17 20:58:30,468 INFO [main][GenericScope.java:295] - BeanFactory id=6289c406-5227-303d-b7dd-62102dc0718c
+2024-12-17 20:58:30,801 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2024-12-17 20:58:30,801 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2024-12-17 20:58:30,808 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2024-12-17 20:58:30,808 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2024-12-17 20:58:30,809 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-12-17 20:58:30,809 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-12-17 20:58:30,809 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-17 20:58:30,809 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-12-17 20:58:30,872 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-12-17 20:58:30,872 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-12-17 20:58:30,872 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1480 ms
+2024-12-17 20:58:30,872 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1480 ms
+2024-12-17 20:58:31,102 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2024-12-17 20:58:31,102 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2024-12-17 20:58:31,171 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@239f017e'
+2024-12-17 20:58:31,171 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@239f017e'
+2024-12-17 20:58:31,172 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2024-12-17 20:58:31,172 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2024-12-17 20:58:31,417 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2024-12-17 20:58:31,417 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2024-12-17 20:58:31,419 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2024-12-17 20:58:31,419 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2024-12-17 20:58:31,421 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2024-12-17 20:58:31,421 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2024-12-17 20:58:31,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2024-12-17 20:58:31,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2024-12-17 20:58:31,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2024-12-17 20:58:31,435 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2024-12-17 20:58:31,438 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2024-12-17 20:58:31,438 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2024-12-17 20:58:31,439 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2024-12-17 20:58:31,439 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2024-12-17 20:58:31,439 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2024-12-17 20:58:31,439 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2024-12-17 20:58:31,440 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2024-12-17 20:58:31,440 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2024-12-17 20:58:31,441 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2024-12-17 20:58:31,441 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2024-12-17 20:58:31,442 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2024-12-17 20:58:31,442 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2024-12-17 20:58:31,443 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2024-12-17 20:58:31,443 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2024-12-17 20:58:31,444 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2024-12-17 20:58:31,444 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2024-12-17 20:58:31,445 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2024-12-17 20:58:31,445 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2024-12-17 20:58:31,446 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2024-12-17 20:58:31,446 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2024-12-17 20:58:31,447 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2024-12-17 20:58:31,447 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2024-12-17 20:58:31,448 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2024-12-17 20:58:31,448 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2024-12-17 20:58:31,803 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'bucket.files' in value "${bucket.files}"
+2024-12-17 20:58:31,803 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'bucket.files' in value "${bucket.files}"
+2024-12-17 20:58:31,805 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2024-12-17 20:58:31,805 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2024-12-17 20:58:31,812 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-12-17 20:58:31,812 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-12-17 20:58:31,839 ERROR [main][SpringApplication.java:837] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'bucket.files' in value "${bucket.files}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.MediaApplication.main(MediaApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'bucket.files' in value "${bucket.files}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'bucket.files' in value "${bucket.files}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 31 more
+2024-12-17 20:58:31,839 ERROR [main][SpringApplication.java:837] - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mediaFilesController': Unsatisfied dependency expressed through field 'mediaFileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'bucket.files' in value "${bucket.files}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.MediaApplication.main(MediaApplication.java:12)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mediaFileServiceImpl': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'bucket.files' in value "${bucket.files}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1420)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1307)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 20 more
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'bucket.files' in value "${bucket.files}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1248)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 31 more
+2024-12-17 20:58:31,842 WARN [Thread-7][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-12-17 20:58:31,842 WARN [Thread-7][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-12-17 20:58:31,842 WARN [Thread-7][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-12-17 20:58:31,842 WARN [Thread-7][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end

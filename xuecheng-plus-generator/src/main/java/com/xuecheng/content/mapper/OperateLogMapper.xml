@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xuecheng.content.mapper.OperateLogMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xuecheng.content.model.po.OperateLog">
+        <id column="id" property="id" />
+        <result column="operate_user" property="operateUser" />
+        <result column="operateTime" property="operatetime" />
+        <result column="className" property="classname" />
+        <result column="methodName" property="methodname" />
+        <result column="methodParams" property="methodparams" />
+        <result column="returnValue" property="returnvalue" />
+        <result column="costTime" property="costtime" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, operate_user, operateTime, className, methodName, methodParams, returnValue, costTime
+    </sql>
+
+</mapper>
