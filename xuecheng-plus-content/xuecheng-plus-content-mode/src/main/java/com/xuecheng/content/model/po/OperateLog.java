@@ -1,12 +1,14 @@
 package com.xuecheng.content.model.po;
 
 import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
 import com.baomidou.mybatisplus.annotation.TableField;
-import java.io.Serializable;
-import lombok.Data;
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+import java.io.Serializable;
+import java.time.LocalDateTime;
 
 /**
  * <p>
@@ -16,6 +18,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
  * @author itcast
  */
 @Data
+@AllArgsConstructor
 @TableName("operate_log")
 public class OperateLog implements Serializable {
 
@@ -24,7 +27,7 @@ public class OperateLog implements Serializable {
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
-    private Integer operateUser;
+    private String operateUser;
 
     @TableField("operateTime")
     private LocalDateTime operatetime;
@@ -42,7 +45,8 @@ public class OperateLog implements Serializable {
     private String returnvalue;
 
     @TableField("costTime")
-    private String costtime;
+    private long costtime;
+
 
 
 }

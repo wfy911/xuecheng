@@ -1,0 +1,14 @@
+2025-03-01 13:29:20,072 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63070 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63070 or configure this application to listen on another port.
+

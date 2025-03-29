@@ -1,13 +1,11 @@
 package com.xuecheng.content.model.po;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
-import com.baomidou.mybatisplus.annotation.FieldFill;
-import com.baomidou.mybatisplus.annotation.TableField;
-import java.io.Serializable;
+import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
-import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.ToString;
+
+import java.io.Serializable;
+import java.time.LocalDateTime;
 
 /**
  * <p>
@@ -17,6 +15,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
  * @author itcast
  */
 @Data
+@ToString
 @TableName("course_base")
 public class CourseBase implements Serializable {
 

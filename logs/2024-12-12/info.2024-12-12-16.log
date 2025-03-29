@@ -1,0 +1,108 @@
+2024-12-12 17:00:03,532 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m48s407ms972µs200ns).
+2024-12-12 17:00:03,532 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m48s407ms972µs200ns).
+2024-12-12 17:00:03,532 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Creating a new SqlSession
+2024-12-12 17:00:03,532 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Creating a new SqlSession
+2024-12-12 17:00:03,551 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-12-12 17:00:03,551 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-12-12 17:00:03,552 DEBUG [http-nio-63040-exec-1][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cc3a236] was not registered for synchronization because synchronization is not active
+2024-12-12 17:00:03,552 DEBUG [http-nio-63040-exec-1][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cc3a236] was not registered for synchronization because synchronization is not active
+2024-12-12 17:00:03,552 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c30de6b
+2024-12-12 17:00:03,552 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c30de6b
+2024-12-12 17:00:03,557 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5891e9f2
+2024-12-12 17:00:03,557 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5891e9f2
+2024-12-12 17:00:03,557 DEBUG [http-nio-63040-exec-1][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-12 17:00:03,557 DEBUG [http-nio-63040-exec-1][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-12 17:00:03,557 DEBUG [http-nio-63040-exec-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@1769938497 wrapping com.mysql.cj.jdbc.ConnectionImpl@7c7d781b] will not be managed by Spring
+2024-12-12 17:00:03,557 DEBUG [http-nio-63040-exec-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@1769938497 wrapping com.mysql.cj.jdbc.ConnectionImpl@7c7d781b] will not be managed by Spring
+2024-12-12 17:00:03,558 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE teachplan SET pname=?, parentid=?, grade=?, media_type=?, start_time=?, orderby=?, course_id=?, status=?, create_date=?, change_date=? WHERE id=?
+2024-12-12 17:00:03,558 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE teachplan SET pname=?, parentid=?, grade=?, media_type=?, start_time=?, orderby=?, course_id=?, status=?, create_date=?, change_date=? WHERE id=?
+2024-12-12 17:00:03,558 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: SQL优化(String), 43(Long), 2(Integer), 1(String), 2019-09-16T10:45:36(LocalDateTime), 1(Integer), 25(Long), 0(Integer), 2019-09-16T10:45:36(LocalDateTime), null, 4(Long)
+2024-12-12 17:00:03,558 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: SQL优化(String), 43(Long), 2(Integer), 1(String), 2019-09-16T10:45:36(LocalDateTime), 1(Integer), 25(Long), 0(Integer), 2019-09-16T10:45:36(LocalDateTime), null, 4(Long)
+2024-12-12 17:00:03,562 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@982b9a1
+2024-12-12 17:00:03,562 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@982b9a1
+2024-12-12 17:00:03,585 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d53c76a
+2024-12-12 17:00:03,585 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d53c76a
+2024-12-12 17:00:03,586 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==    Updates: 1
+2024-12-12 17:00:03,586 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==    Updates: 1
+2024-12-12 17:00:03,586 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cc3a236]
+2024-12-12 17:00:03,586 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@cc3a236]
+2024-12-12 17:00:03,587 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Creating a new SqlSession
+2024-12-12 17:00:03,587 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Creating a new SqlSession
+2024-12-12 17:00:03,587 DEBUG [http-nio-63040-exec-1][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7eb9c6b] was not registered for synchronization because synchronization is not active
+2024-12-12 17:00:03,587 DEBUG [http-nio-63040-exec-1][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7eb9c6b] was not registered for synchronization because synchronization is not active
+2024-12-12 17:00:03,587 DEBUG [http-nio-63040-exec-1][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-12 17:00:03,587 DEBUG [http-nio-63040-exec-1][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-12-12 17:00:03,588 DEBUG [http-nio-63040-exec-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@1465738501 wrapping com.mysql.cj.jdbc.ConnectionImpl@7c7d781b] will not be managed by Spring
+2024-12-12 17:00:03,588 DEBUG [http-nio-63040-exec-1][Logger.java:49] - JDBC Connection [HikariProxyConnection@1465738501 wrapping com.mysql.cj.jdbc.ConnectionImpl@7c7d781b] will not be managed by Spring
+2024-12-12 17:00:03,588 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE teachplan SET pname=?, parentid=?, grade=?, media_type=?, start_time=?, orderby=?, course_id=?, status=?, create_date=?, change_date=? WHERE id=?
+2024-12-12 17:00:03,588 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE teachplan SET pname=?, parentid=?, grade=?, media_type=?, start_time=?, orderby=?, course_id=?, status=?, create_date=?, change_date=? WHERE id=?
+2024-12-12 17:00:03,589 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 数据库基础知识(String), 43(Long), 2(Integer), 1(String), 2019-09-16T10:45:36(LocalDateTime), 2(Integer), 25(Long), 0(Integer), 2019-09-16T10:45:36(LocalDateTime), null, 2(Long)
+2024-12-12 17:00:03,589 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 数据库基础知识(String), 43(Long), 2(Integer), 1(String), 2019-09-16T10:45:36(LocalDateTime), 2(Integer), 25(Long), 0(Integer), 2019-09-16T10:45:36(LocalDateTime), null, 2(Long)
+2024-12-12 17:00:03,597 DEBUG [SpringContextShutdownHook][AbstractApplicationContext.java:1006] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1021f6c9, started on Thu Dec 12 16:57:35 GMT+08:00 2024, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@20d7d6fb
+2024-12-12 17:00:03,597 DEBUG [SpringContextShutdownHook][AbstractApplicationContext.java:1006] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1021f6c9, started on Thu Dec 12 16:57:35 GMT+08:00 2024, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@20d7d6fb
+2024-12-12 17:00:03,598 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483647
+2024-12-12 17:00:03,598 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483647
+2024-12-12 17:00:03,599 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2024-12-12 17:00:03,599 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2024-12-12 17:00:03,600 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-12-12 17:00:03,600 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-12-12 17:00:03,600 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483646
+2024-12-12 17:00:03,600 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483646
+2024-12-12 17:00:03,623 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a5c6311
+2024-12-12 17:00:03,623 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a5c6311
+2024-12-12 17:00:03,624 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==    Updates: 1
+2024-12-12 17:00:03,624 DEBUG [http-nio-63040-exec-1][BaseJdbcLogger.java:137] - <==    Updates: 1
+2024-12-12 17:00:03,625 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7eb9c6b]
+2024-12-12 17:00:03,625 DEBUG [http-nio-63040-exec-1][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7eb9c6b]
+2024-12-12 17:00:03,628 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@228e194e
+2024-12-12 17:00:03,628 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@228e194e
+2024-12-12 17:00:03,638 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e2eb5ab
+2024-12-12 17:00:03,638 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e2eb5ab
+2024-12-12 17:00:03,638 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-12-12 17:00:03,638 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-12-12 17:00:03,638 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:285] - Nothing to write: null body
+2024-12-12 17:00:03,638 DEBUG [http-nio-63040-exec-1][AbstractMessageConverterMethodProcessor.java:285] - Nothing to write: null body
+2024-12-12 17:00:03,639 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
+2024-12-12 17:00:03,639 DEBUG [http-nio-63040-exec-1][FrameworkServlet.java:1131] - Completed 200 OK
+2024-12-12 17:00:03,644 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c00e404
+2024-12-12 17:00:03,644 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c00e404
+2024-12-12 17:00:03,649 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e4b239b
+2024-12-12 17:00:03,649 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e4b239b
+2024-12-12 17:00:03,649 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-12 17:00:03,649 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-12 17:00:03,713 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerStartStop' completed its stop procedure
+2024-12-12 17:00:03,713 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerStartStop' completed its stop procedure
+2024-12-12 17:00:03,714 DEBUG [SpringContextShutdownHook][MBeanExporter.java:452] - Unregistering JMX-exposed beans on shutdown
+2024-12-12 17:00:03,714 DEBUG [SpringContextShutdownHook][MBeanExporter.java:452] - Unregistering JMX-exposed beans on shutdown
+2024-12-12 17:00:03,714 DEBUG [SpringContextShutdownHook][MBeanRegistrationSupport.java:186] - Unregistering JMX-exposed beans
+2024-12-12 17:00:03,714 DEBUG [SpringContextShutdownHook][MBeanRegistrationSupport.java:186] - Unregistering JMX-exposed beans
+2024-12-12 17:00:03,714 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-12 17:00:03,714 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-12-12 17:00:03,715 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-12-12 17:00:03,715 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-12-12 17:00:03,715 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-12 17:00:03,715 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-12 17:00:03,716 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c7d781b: (connection evicted)
+2024-12-12 17:00:03,716 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c7d781b: (connection evicted)
+2024-12-12 17:00:03,718 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2c30de6b: (connection evicted)
+2024-12-12 17:00:03,718 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2c30de6b: (connection evicted)
+2024-12-12 17:00:03,718 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5891e9f2: (connection evicted)
+2024-12-12 17:00:03,718 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5891e9f2: (connection evicted)
+2024-12-12 17:00:03,718 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@982b9a1: (connection evicted)
+2024-12-12 17:00:03,718 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@982b9a1: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@d53c76a: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@d53c76a: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a5c6311: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a5c6311: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@228e194e: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@228e194e: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2e2eb5ab: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2e2eb5ab: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5c00e404: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5c00e404: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2e4b239b: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2e4b239b: (connection evicted)
+2024-12-12 17:00:03,719 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-12 17:00:03,719 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-12 17:00:03,719 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-12-12 17:00:03,719 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

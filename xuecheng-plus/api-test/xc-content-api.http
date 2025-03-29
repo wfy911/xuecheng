@@ -1,0 +1,73 @@
+
+###
+###
+POST {{content_host}}/content/course/list?pageNo=1&pageSize=2
+Content-Type:application/json
+
+{
+  "auditStatus":"202004",
+  "courseName":"java",
+  "publishStatus":""
+}
+
+### 创建课程
+POST {{content_host}}/content/course
+Content-Type: application/json
+
+{
+
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "学成在线",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员12312312312312",
+  "tags": "哈哈哈哈哈",
+  "grade": "204001",
+  "description": "1231231231231231",
+  "charge": "201000",
+  "price": 10,
+  "originalPrice":10,
+  "qq": "1724466",
+  "wechat": "271244",
+  "phone": "123123123123",
+  "validDays": 365
+}
+
+### 查询课程信息
+GET {{gateway_host}}/content/course/40
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzU4MzAzMzQsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjZkZDcyZDRhLWUyYTUtNDNkZC1iYjQzLWM2MDdkZDNmNmNlOCIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.AcxLfzgw455kN60rt5kSiBZXTJJCNNAWIXxHe468S4s
+
+### 查询某个课程的课程计划
+
+GET {{content_host}}/content/teachplan/117/tree-nodes
+
+
+### 删除课程计划
+DELETE {{content_host}}/content/teachplan/12
+
+### 删除课程计划
+POST {{content_host}}/content/teachplan/movedown/4
+
+### 查询老师
+GET {{content_host}}/content/courseTeacher/list/74
+
+###
+POST {{content_host}}/content/courseTeacher
+Content-Type: application/json
+
+{
+  "id": 21,
+  "courseId": 75,
+  "teacherName": "王fei老师",
+  "position": "教师职位",
+  "introduction": "教师简介",
+  "photograph": null,
+  "createDate": null
+}
+
+###
+DELETE {{content_host}}/content/ourseTeacher/course/75/21
+
+###
+GET {{content_host}}/content/course/whole/117
